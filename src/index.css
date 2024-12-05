@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagination li {
+  background-color: #d2d5d7;
+  padding: 10px 20px;
+  border-radius: 20px;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.pagination li.active {
+  background-color: #dab2b2;
+  color: #ac5252;
+}
+
+.pagination li.disabled {
+  color: #bababa;
+}
